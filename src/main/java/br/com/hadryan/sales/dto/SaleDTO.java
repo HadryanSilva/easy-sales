@@ -3,6 +3,8 @@ package br.com.hadryan.sales.dto;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 public class SaleDTO {
@@ -12,5 +14,6 @@ public class SaleDTO {
     private Integer quantity;
     private Double price;
     private Double total;
+    private LocalDateTime createdAt;
 
 }
